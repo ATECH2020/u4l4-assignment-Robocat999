@@ -31,7 +31,7 @@ public class Primes
         int numPrimes = 0;
           for(int i = 2; i <= n; i++)
           {//Start for loop
-            if(isPrime(n) == true)
+            if(isPrime(i) == true)
             {//Start if n is prime
               numPrimes++;
             }//End if n is prime
