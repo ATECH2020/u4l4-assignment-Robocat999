@@ -6,7 +6,7 @@ public class Primes
         int factors = 0;
           for(int i = 1; i <= n; i++)
           {//Start for loop
-            if(n % i == 0)
+            if((n % i) == 0)
             {//Start if 0 remain
               factors++;
             }//End if 0 remain
